@@ -35,4 +35,4 @@ app.get('/', (req, res) => {
     res.send("Hiii")
 })
 
-export default app
+app.listen(port, () => console.log(`Server listening on port ${port}`));
